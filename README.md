@@ -107,12 +107,9 @@ Fetches all users from all pages internally.
 
 ---
 
-## 👨‍💻 Author
+👨‍💻 Author
 
-**Shyam-Developer**
-📧 \[shyamkoti33@gmail.com]
-🔗 \[(www.linkedin.com/in/shyamkotideveloper)]
-🔗 \[(https://github.com/Shyam-Developer)]
+Koti Shyam📧 [shyamkoti33@gmail.com]🔗 [[LinkedIn Profile](www.linkedin.com/in/shyamkotideveloper)]🔗 [[GitHub Profile](https://github.com/Shyam-Developer)]
 
 
 > **Note:** This project was created as part of the RaftLabs.
