@@ -110,9 +110,9 @@ Fetches all users from all pages internally.
 ## 👨‍💻 Author
 
 **Koti Shyam**
-📧 \[Your Email]
-🔗 \[Your LinkedIn]
-🔗 \[GitHub Profile]
+📧 \[shyamkoti33@gmail.com]
+🔗 \[(http://linkedin.com/in/koti-shyam-b194851b8)]
+🔗 \[(https://github.com/Shyam-Developer)]
 
 
-> **Note:** This project was created as part of the RaftLabs .NET Developer Assignment 2025.
+> **Note:** This project was created as part of the RaftLabs.
