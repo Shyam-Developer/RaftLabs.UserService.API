@@ -45,8 +45,8 @@ RaftLabsUserServiceSolution/
 ### 1. Clone the repository
 
 ```bash
-git clone 
-cd 
+git clone https://github.com/Shyam-Developer/RaftLabs.UserService.API.git
+cd RaftLabs.UserService.API
 ```
 
 ### 2. Open in Visual Studio 2022
