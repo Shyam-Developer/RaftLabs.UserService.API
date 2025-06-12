@@ -9,9 +9,9 @@ This repository contains a modular and testable implementation of a .NET 8 class
 
 ```
 RaftLabsUserServiceSolution/
-├── UserServiceLibrary/         # Core logic: client, service, models
+├── RaftLabs.UserService.API/  # Controller and Configuration 
+├── UserServiceLibrary/        # Core logic: client, service, models
 ├── UserServiceTests/          # Unit test project using xUnit
-├── UserServiceDemo/           # Console application to demonstrate usage
 └── README.md                  # Project documentation
 ```
 
@@ -95,15 +95,6 @@ Fetches all users from all pages internally.
 * Handles non-success HTTP codes (e.g., 404)
 * Network failures, timeouts, deserialization issues
 * Returns meaningful exceptions or fallback
-
----
-
-## 🏆 Bonus Ideas (Not Implemented Yet)
-
-* In-memory caching via `IMemoryCache`
-* Retry policies via `Polly`
-* Use of `IOptions<ApiSettings>` for cleaner config binding
-* Clean Architecture layers
 
 ---
 
