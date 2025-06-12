@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35806.99 d17.13
+VisualStudioVersion = 17.13.35806.99
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RaftLabs.UserService.API", "RaftLabs.UserService.API\RaftLabs.UserService.API.csproj", "{FD846902-6D07-4B86-BDE1-F2B41838AF44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserServiceLibrary", "UserServiceLibrary\UserServiceLibrary.csproj", "{1AE9E543-33C6-4565-848D-4FD0F47BC61F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserServiceTests", "UserServiceTests\UserServiceTests.csproj", "{190B74AA-0894-4154-8B4E-4087A886555B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{FD846902-6D07-4B86-BDE1-F2B41838AF44}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD846902-6D07-4B86-BDE1-F2B41838AF44}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD846902-6D07-4B86-BDE1-F2B41838AF44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AE9E543-33C6-4565-848D-4FD0F47BC61F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AE9E543-33C6-4565-848D-4FD0F47BC61F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AE9E543-33C6-4565-848D-4FD0F47BC61F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AE9E543-33C6-4565-848D-4FD0F47BC61F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{190B74AA-0894-4154-8B4E-4087A886555B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{190B74AA-0894-4154-8B4E-4087A886555B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{190B74AA-0894-4154-8B4E-4087A886555B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{190B74AA-0894-4154-8B4E-4087A886555B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
