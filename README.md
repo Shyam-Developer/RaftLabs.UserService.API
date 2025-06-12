@@ -109,7 +109,7 @@ Fetches all users from all pages internally.
 
 ## 👨‍💻 Author
 
-**Koti Shyam**
+**Shyam-Developer**
 📧 \[shyamkoti33@gmail.com]
 🔗 \[(http://linkedin.com/in/koti-shyam-b194851b8)]
 🔗 \[(https://github.com/Shyam-Developer)]
