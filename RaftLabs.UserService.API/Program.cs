@@ -45,7 +45,7 @@ namespace RaftLabs.UserService.API
             app.UseSwaggerUI(c =>
             {
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "User API V1");
-                c.RoutePrefix = string.Empty; // Swagger at root: https://localhost:5001/
+                c.RoutePrefix = string.Empty; // Swagger at root: https://localhost:5000/
             });
 
             app.UseAuthorization();

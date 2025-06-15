@@ -31,8 +31,8 @@ namespace RaftLabs.UserService.API.Controllers
         /// Retrieves a user by their ID from the external user service.
         /// </summary>
         /// <param name="id"></param>
-        /// <returns></returns>
-        [HttpGet("GetUserById{id}")]
+        /// <returns></returns>      
+        [HttpGet("{id}")]
         public async Task<ActionResult<User>> GetUserById(int id)
         {
             try

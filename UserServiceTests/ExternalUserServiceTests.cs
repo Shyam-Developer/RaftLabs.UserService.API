@@ -1,4 +1,5 @@
-﻿using Moq;
+﻿using Microsoft.Extensions.Options;
+using Moq;
 using Moq.Protected;
 using System;
 using System.Collections.Generic;
@@ -42,8 +43,11 @@ namespace UserServiceTests
                 BaseAddress = new Uri("https://reqres.in/api/")
             };
 
-            var settings = new ApiSettings { BaseUrl = "https://reqres.in/api/" };
-            return new ExternalUserService(httpClient, settings);
+            var options = Options.Create(new ApiSettings
+            {
+                BaseUrl = "https://reqres.in/api/"
+            });
+            return new ExternalUserService(httpClient, options);
         }
 
         /// <summary>
@@ -118,8 +122,11 @@ namespace UserServiceTests
                 BaseAddress = new Uri("https://reqres.in/api/")
             };
 
-            var settings = new ApiSettings { BaseUrl = "https://reqres.in/api/" };
-            var service = new ExternalUserService(client, settings);
+            var options = Options.Create(new ApiSettings
+            {
+                BaseUrl = "https://reqres.in/api/"
+            });
+            var service = new ExternalUserService(client, options);
 
             // Act
             var users = await service.GetAllUsersAsync();

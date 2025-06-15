@@ -24,11 +24,6 @@ namespace UserServiceLibrary.Services
         {
             _httpClient = httpClient;
             _baseUrl = options.Value.BaseUrl.TrimEnd('/') + "/";
-        }
-
-        public ExternalUserService(HttpClient httpClient, ApiSettings settings)
-        {
-            _httpClient = httpClient;
             this.settings = settings;
         }
         #endregion
