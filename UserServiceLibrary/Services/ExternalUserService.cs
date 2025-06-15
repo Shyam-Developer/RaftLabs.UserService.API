@@ -16,6 +16,7 @@ namespace UserServiceLibrary.Services
         #region Fields
         private readonly HttpClient _httpClient;
         private readonly string _baseUrl;
+        private ApiSettings settings;
         #endregion
 
         #region Constructor
@@ -23,6 +24,12 @@ namespace UserServiceLibrary.Services
         {
             _httpClient = httpClient;
             _baseUrl = options.Value.BaseUrl.TrimEnd('/') + "/";
+        }
+
+        public ExternalUserService(HttpClient httpClient, ApiSettings settings)
+        {
+            _httpClient = httpClient;
+            this.settings = settings;
         }
         #endregion
 
